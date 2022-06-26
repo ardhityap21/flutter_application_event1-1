@@ -268,7 +268,7 @@ class _HomePageState extends State<HomePage> {
         onTap: () {
           ThemeService().switchTheme();
           notifyHelper.displayNotification(
-              title: "theme changed",
+              title: "Theme Changed",
               body: Get.isDarkMode
                   ? "activated light theme"
                   : "activated dark theme");
